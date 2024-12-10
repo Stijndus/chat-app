@@ -1,15 +1,13 @@
 import React from 'react';
 import './List.css';
+import UserInfo from '../user-info/UserInfo';
+import ChatList from '../chat-list/ChatList';
 
 function List() {
     return (
         <div className='list'>
-        <h1>My List</h1>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
+            <UserInfo />
+            <ChatList />
         </div>
     );
 }
