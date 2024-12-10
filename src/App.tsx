@@ -1,13 +1,17 @@
-import React from 'react'
-import './App.css'
+import React from "react";
+import "./App.css";
+import Chat from "./components/chat/Chat";
+import Detail from "./components/detail/Detail";
+import List from "./components/list/List";
 
 function App() {
-
   return (
     <div className="container">
-    Test
+      <List />
+      <Chat />
+      <Detail />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

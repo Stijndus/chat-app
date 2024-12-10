@@ -7,7 +7,7 @@
     "postAttachCommand": "bash .devcontainer/scripts/post-attach-commands.sh",
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash",
-      "workbench.colorTheme": "oh-lucy",
+      "workbench.colorTheme": "Material Theme Darker",
       "workbench.iconTheme": "material-icon-theme"
     },
     "extensions": [
