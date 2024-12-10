@@ -1,0 +1,10 @@
+.container {
+  color: white;
+  background-color: rgba(14, 40, 15, 0.75);
+  backdrop-filter: blur(18px) saturate(180%);
+
+  border-radius: 20px;
+
+  width: 90vw;
+  height: 90vh;
+}
